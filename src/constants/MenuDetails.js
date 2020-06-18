@@ -2,8 +2,8 @@
 
 const MenuDetails = [
     {
-        title: 'Shack Burger',
-        description: 'Black Angus beef patty topped with American cheese, tomato, lettuce, and “Shack Sauce,” served in a grilled potato bun',
+        title: 'Moroccan Beef Kebabs',
+        description: 'Black Angus beef patty , tomato, lettuce, and “kebab Sauce,” served in a grilled potato bun',
         className: 'shack_burger',
         image_title: 'chicken',
         imageClass: 'chicken',
@@ -20,10 +20,10 @@ const MenuDetails = [
         objectID: 2,
     },
     {
-        title: 'Classic',
+        title: 'Moroccan Chicken',
         description: 'Instead of traditional cucumber pickles, legendary chef-owner Judy Rodgers accents her burgers with thin-cut zucchini strips pickled in apple cider vinegar, mustard seeds and turmeric.',
         className: 'classic',
-        header: 'House-ground hamburger',
+        header: 'Athentic Moroccan chicken',
         shortDescription: '(served in a grilled rosemary focaccia).',
         price: 1000,
         row: 2,
