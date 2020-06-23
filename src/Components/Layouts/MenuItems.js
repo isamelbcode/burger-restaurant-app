@@ -75,7 +75,7 @@ const MenuItems = ({
                             }
                         }}>
                             <div className={className}>
-                                <a href="" className="classic_btn">{title}</a>
+                              
                                 <div className="overlay">
                                     <h3>{header}</h3>
                                     <p>{shortDescription}</p>
@@ -110,7 +110,7 @@ const MenuItems = ({
                                         <li><span className="flaticon flaticon-calories"></span><p>Calories - 750 kcal</p></li>
                                     </ul>
                                     <div className="info_btn_shadow">
-                                        info and nutrition
+                                       
                                     </div>
                                 </div>
                                 <div className="carousel-inner" role="listbox">

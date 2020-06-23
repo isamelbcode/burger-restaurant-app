@@ -102,22 +102,16 @@ class MealDetails extends Component {
                 </section>
                 <section className="details">
                     <div className="container">
-                        <div className="col-sm-4"><h3>Price</h3></div>
-                        <div className="col-sm-8"><h3>{`Naira ${item.price}`}</h3></div>
+                        <div className="col-sm-4"><h3>{'the best food money can buy'}</h3></div>
+                        <div className="col-sm-8"><h3>{'the best in the west'}</h3></div>
                     </div>
                 </section>
                 <form>
                     <section className="details">
                         <div className="container">
-                            <div className="col-sm-4"><h3>Quantity</h3></div>
+                            <div className="col-sm-4"><h3>Love you all</h3></div>
                             <div className="col-sm-8">
-                                <input 
-                                id="quantity"
-                                name="price" 
-                                placeholder="1" 
-                                value={this.state.quantity} 
-                                onChange={event => this.onQuantityChange(event,index)}
-                                required />
+                                
                             </div>
                         </div>
                     </section>
@@ -131,9 +125,7 @@ class MealDetails extends Component {
                                     amount: item.price
                                 }
                             }}>
-                            <button class="btn orange" type="button">
-                                <span>Order Meal</span>
-                            </button>
+                            
                             </Link>
                         </div>
                     </section>

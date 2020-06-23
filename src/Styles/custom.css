@@ -279,7 +279,7 @@ a:focus {
 
 /* Header */
 header {
-  background: url(../images/header_bg.jpg) no-repeat;
+  background: url(../images/koutban.png) no-repeat;
   background-size: 100% 100%;
   color: #f1f1f1;
   overflow: hidden;
@@ -707,6 +707,8 @@ header .caption {
   margin-top: 35px;
   height: 190px;
   padding: 75px 0 40px;
+  color: red
+  
 }
 .menu {
   background: url(../images/menu_bg.jpg) no-repeat;
@@ -719,6 +721,7 @@ header .caption {
 .sides {
   background: url(../images/sides_bg.jpg) no-repeat;
   background-size: 100% 100%;
+ 
 }
 .inner_content {
   display: block;

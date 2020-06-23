@@ -18,12 +18,7 @@ class SideNavigator extends Component {
         status = this.props.status;
         return (
             <div className={status}>
-                 <a 
-                    href="#" 
-                    className="close-side"
-                    onClick={this.closeNav()}>
-                    <i className="fa fa-times"></i>
-                </a>
+                 
                  <div className="wideget">
                     <h6 className="title">Menu</h6>
                     <ul id="menu" className="link">

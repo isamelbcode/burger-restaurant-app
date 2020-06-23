@@ -15,14 +15,16 @@ class Header extends Component {
                 <div className="row">
                     <div class="col-md-8 col-md-offset-2">
                         <div class="banner">
-                            <h3>-introducing-</h3>
+                           
+                            <br/>
+                            <br/>
                             <h1>{children}</h1>
                             <div class="inner_banner">
 
                                 {title === "fatty" ?
                                 <div class="banner_content">
-                                <p>A double layer of sear-sizzled 100% pure beef mingled with special sauce on a sesame seed bun and topped with melty American cheese, crisp lettuce, minced onions and tangy pickles.</p>
-                                <p>Based on pre-cooked patty weight.</p>							
+                                <p id='text in header' style = {{color:'white'}} > </p>
+                                <p style = {{color:'white'}} ></p>							
                                 </div>
                                 :
                                 <div></div>
