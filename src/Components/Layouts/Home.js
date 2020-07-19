@@ -5,6 +5,8 @@ import { imagesLoaded } from "../../constants/ImagesLoaded";
 import Splash from "./Splash";
 import { BottomTabs } from "./BottomTabs";
 import { Tagline } from "./Tagline";
+import { orderForm } from "./orderForm";
+
 import "./home.css";
 
 class Home extends Component {
@@ -49,6 +51,8 @@ class Home extends Component {
         <br />
         <br />
         <br />
+        
+        
         <h3 align={"center"} style={{ color: "black" }}>
           a fresh video every week
         </h3>
@@ -70,7 +74,7 @@ class Home extends Component {
           </div>
         </section>
         <Tagline />
-        <openingHours />
+        <orderForm />
       </div>
     );
   }

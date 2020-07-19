@@ -1,5 +1,6 @@
 import React from "react";
 import map from "./map.png";
+import wlogo from './whatsappgr.png';
 import menu12 from "./menu12.png";
 
 const Tagline = () => {
@@ -13,58 +14,23 @@ const Tagline = () => {
       <br />
       <p>we open from 17:00 to 21:30 monday to friday</p>
       <p> we open from 12:00 to 18:00 weekends</p>
-      <p>you can book on this whatApp number: 07944254176</p>
+      <p>contact us by clicking on whatsApp icon</p>
+      <a href="https://wa.me/447376121241">
+        <img id = 'hard' src = {wlogo} alt="whatsapp icon" width = '50' height ='50'/>
+      </a>
       <br />
       <br />
+
       <div>
-        <ul
-          style={{ flexDirection: "column", justifyContent: "space-between" }}
-        >
+       
+         
           <h1>The Menu</h1>
           <br />
           <br />
-          {/*
-          <li>
-            <h3>The Grasslands</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-              euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam
-              quis justo in augue auctor imperdiet.
-            </p>
-          </li>
-          <br />
-
-          <li>
-            <h3>Paradise Found</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-              euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam
-              quis justo in augue auctor imperdiet.
-            </p>
-          </li>
-          <br />
-
-          <li>
-            <h3>Smoke On The Water</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-              euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam
-              quis justo in augue auctor imperdiet.
-            </p>
-          </li>
-          <br />
-
-          <li>
-            <h3>Smoke On The Water</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-              euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam
-              quis justo in augue auctor imperdiet.
-            </p>
-          </li>
-          <br />*/}
+         
           <img src={menu12} alt={menu12} />
-        </ul>
+        
+     
       </div>
     </section>
   );
