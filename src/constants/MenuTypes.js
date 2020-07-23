@@ -2,7 +2,7 @@ const MenuTypes = [
     {
         className: 'menu',
         imageClass: 'flaticon flaticon-burger',
-        title: 'pan cakes and tea',
+        title: 'vegetarian tagine',
     },
     {
         className: 'drinks',
